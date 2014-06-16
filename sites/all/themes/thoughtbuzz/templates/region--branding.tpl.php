@@ -3,7 +3,7 @@
     <?php if ($linked_logo_img || $site_name || $site_slogan): ?>
     <div class="branding-data clearfix">
       <?php if ($linked_logo_img): ?>
-      <div class="logo-img">
+      <div class="logo-img" id="thought_logo">
         <?php print $linked_logo_img; ?>
       </div>
       <?php endif; ?>
@@ -13,7 +13,7 @@
         <?php if ($site_name): ?>
         <?php $class = $site_name_hidden ? ' element-invisible' : ''; ?>
         <?php if ($is_front): ?>        
-        <h1 class="site-name<?php print $class; ?>"><?php// print $linked_site_name; ?></h1>
+        <h1 class="site-name<?php print $class; ?>"><?php //print $linked_site_name; ?></h1>
         <?php else: ?>
         <h2 class="site-name<?php print $class; ?>"><?php print $linked_site_name; ?></h2>
         <?php endif; ?>
