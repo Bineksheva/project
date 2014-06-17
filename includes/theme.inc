@@ -2822,14 +2822,14 @@ function template_process_maintenance_page(&$variables) {
 }
 
 /**
- * Preprocess variables for region.tpl.php
+ * Preprocess variables for region--user_bar_first.tpl.php
  *
  * Prepares the values passed to the theme_region function to be passed into a
  * pluggable template engine. Uses the region name to generate a template file
- * suggestions. If none are found, the default region.tpl.php is used.
+ * suggestions. If none are found, the default region--user_bar_first.tpl.php is used.
  *
  * @see drupal_region_class()
- * @see region.tpl.php
+ * @see region--user_bar_first.tpl.php
  */
 function template_preprocess_region(&$variables) {
   // Create the $content variable that templates expect.

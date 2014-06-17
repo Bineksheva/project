@@ -1,2 +1,35 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*
+  Header section
+*/
+.thoughtBuzz{
+    width: 100%;
+    background: url("../images/s1.png") #e8ecef repeat-x;
+}
+
+#thought_logo{
+    margin-top: 10px;
+}
+.branding-data{
+    /*border: solid;*/
+    width: 500px;
+    float: left;
+}
+.thoughtBuzz_login{
+    position: relative;
+    bottom: 23px;
+    text-align: right;
+    padding-right: 100px;
+}
+.thoughtBuzz_login a{
+    margin-right: 15px;
+}
+#thought_contact{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+#thought_contact:hover{
+    color: #ff0000;
+}
